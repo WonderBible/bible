@@ -261,14 +261,6 @@ document.getElementById('search__button').onclick = function(){
   <p style="text-align:center;">Website: 
     <a target="_blank" href="https://www.kjbo.org/">King James Bible Online</a>.</p> 
     <script src="FFB.js"></script>
-    
-    <script>
-     var loader = document.getElementById("preloader");
-
-     window.addEventListener("load", function(){
-       loader.style.display = "none";
-     })
-    </script>
 
 </body>
 <div style="margin-top:0; background-color:#000000; height:820px; color:white;" class="sm">
@@ -346,6 +338,13 @@ document.getElementById('search__button').onclick = function(){
 </div>
 
 </div>
+<script>
+  var loader = document.getElementById("preloader");
+
+  window.addEventListener("load", function(){
+    loader.style.display = "none";
+  })
+ </script>
 </html>
 <script>
   if('serviceWorker' in navigator) {
