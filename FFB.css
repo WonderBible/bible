@@ -777,4 +777,12 @@ position:relative;
   margin-left:30px;
   transition: 0.19s;
   transition: 0.23s;
+
 } 
+    #preloader{
+      background: #ffffff url(Loading.gif) no-repeat center center;
+      height: 100vh;
+      width: 100%;
+      position: fixed;
+      z-index: 100;
+    }
